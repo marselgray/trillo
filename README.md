@@ -11,19 +11,21 @@ This is an advanced CSS and Sass project that uses Flexbox.
 [Read More About the Root Selector](https://css-tricks.com/almanac/selectors/r/root/)
 
 2. FlexBox
+(See Notes Below)
 
 3. SVGs -- Scalable Vector Graphics
 SVGs are preferred since they are easily to manipulate and have better support than iconfonts.
+
+4. currentColor
 
 4. Nested FlexBoxes
 
 ###  Notes
 FlexBox Definition and Terms:
 
-1. Flex
+**Flex:**
 
-Instead of writing flex-grow, flex-basis, flex-shrink you can simply write flex where the first item is flex-grow,
-the second if flex-shrink, and the final is flex-basis. 
+>Instead of writing flex-grow, flex-basis, flex-shrink you can simply write flex where the first item is flex-grow, the second if flex-shrink, and the final is flex-basis. 
 ```
 /* this */
 flex: 1 100px;
