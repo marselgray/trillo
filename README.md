@@ -5,6 +5,7 @@ This is an advanced CSS and Sass project that uses Flexbox.
 ### Planning/ Execution:
 1. Global styles/ resets/ layouts
 2. Header
+3. Navigation SideBar
 
 ### Advanced CSS and Sass Concepts used:
 1. :root selector 
@@ -16,9 +17,10 @@ This is an advanced CSS and Sass project that uses Flexbox.
 3. SVGs -- Scalable Vector Graphics
 SVGs are preferred since they are easily to manipulate and have better support than iconfonts.
 
-4. currentColor
-
 4. Nested FlexBoxes
+
+5. currentColor
+The current of the parent element.
 
 ###  Notes
 FlexBox Definition and Terms:
