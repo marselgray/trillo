@@ -9,18 +9,18 @@ This is an advanced CSS and Sass project that uses Flexbox.
 
 ### Advanced CSS and Sass Concepts used:
 1. :root selector 
-[Read More About the Root Selector](https://css-tricks.com/almanac/selectors/r/root/)
+>[Read More About the Root Selector](https://css-tricks.com/almanac/selectors/r/root/)
 
 2. FlexBox
-(See Notes Below)
+>(See Notes Below)
 
 3. SVGs -- Scalable Vector Graphics
-SVGs are preferred since they are easily to manipulate and have better support than iconfonts.
+>SVGs are preferred since they are easily to manipulate and have better support than iconfonts.
 
 4. Nested FlexBoxes
 
 5. currentColor
-The current of the parent element.
+>The current of the parent element.
 
 6. Animations
 
@@ -28,7 +28,6 @@ The current of the parent element.
 FlexBox Definition and Terms:
 
 **Flex:**
-
 >Instead of writing flex-grow, flex-basis, flex-shrink you can simply write flex where the first item is flex-grow, the second if flex-shrink, and the final is flex-basis. 
 ```
 /* this */
