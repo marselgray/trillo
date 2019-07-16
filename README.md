@@ -22,6 +22,8 @@ SVGs are preferred since they are easily to manipulate and have better support t
 5. currentColor
 The current of the parent element.
 
+6. Animations
+
 ###  Notes
 FlexBox Definition and Terms:
 
