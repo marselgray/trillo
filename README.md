@@ -12,12 +12,16 @@ This is an advanced CSS and Sass project that uses Flexbox.
 
 2. FlexBox
 
-3. SVGs -- scalable vector graphs
+3. SVGs -- Scalable Vector Graphics
 SVGs are preferred since they are easily to manipulate and have better support than iconfonts.
+
+4. Nested FlexBoxes
 
 ###  Notes
 FlexBox Definition and Terms:
+
 1. Flex
+
 Instead of writing flex-grow, flex-basis, flex-shrink you can simply write flex where the first item is flex-grow,
 the second if flex-shrink, and the final is flex-basis. 
 ```
