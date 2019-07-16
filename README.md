@@ -12,7 +12,25 @@ This is an advanced CSS and Sass project that uses Flexbox.
 1. :root selector 
 [Read More About the Root Selector](https://css-tricks.com/almanac/selectors/r/root/)
 
+2. FlexBox
+
+
 ###  Notes
+FlexBox Definition and Terms:
+1. Instead of writing flex-grow, flex-basis, flex-shrink you can simply write flex where the first item is flex-grow,
+	the second if flex-shrink, and the final is flex-basis. 
+
+```
+/* this */
+flex: 1 100px;
+
+/* is the same as */
+flex-grow: 1;
+flex-basis: 100px;
+
+/* and it leaves the flex-shrink property alone, which would be */
+flex-shrink: inherit; /* defaults to 1 */
+```
 
 
 ### Final Product:
