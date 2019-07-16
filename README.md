@@ -2,11 +2,9 @@
 
 This is an advanced CSS and Sass project that uses Flexbox.
 
-### Planning:
-1. 
-
-### Execution:
-1. 
+### Planning/ Execution:
+1. Global styles/ resets/ layouts
+2. Header
 
 ### Advanced CSS and Sass Concepts used:
 1. :root selector 
@@ -14,12 +12,14 @@ This is an advanced CSS and Sass project that uses Flexbox.
 
 2. FlexBox
 
+3. SVGs -- scalable vector graphs
+SVGs are preferred since they are easily to manipulate and have better support than iconfonts.
 
 ###  Notes
 FlexBox Definition and Terms:
-1. Instead of writing flex-grow, flex-basis, flex-shrink you can simply write flex where the first item is flex-grow,
-	the second if flex-shrink, and the final is flex-basis. 
-
+1. Flex
+Instead of writing flex-grow, flex-basis, flex-shrink you can simply write flex where the first item is flex-grow,
+the second if flex-shrink, and the final is flex-basis. 
 ```
 /* this */
 flex: 1 100px;
