@@ -70,19 +70,21 @@ body {
   display: flex;
   padding: 4.5rem;
   background-color: var(--color-grey-light-1);
-  border-bottom: var(--line); }
+  border-bottom: var(--line);
+  font-size: 1.4rem; }
 
 .description {
   background-color: #fff;
   box-shadow: var(-shadow-light);
   padding: 3rem;
   flex: 0 0 60%;
-  margin: 0 4.5rem 0 0;
-  font-size: 1.4rem; }
+  margin: 0 4.5rem 0 0; }
 
 .user-reviews {
-  background-color: yellowgreen;
-  flex: 1; }
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
 .logo {
   height: 3.25rem;
@@ -267,9 +269,14 @@ body {
   background-color: transparent;
   transition: all .2s;
   backface-visibility: hidden; }
+  .btn-inline span {
+    margin: 0 0 0 3px;
+    transition: margin 0.2s; }
   .btn-inline:hover {
     color: var(--color-grey-dark-1);
     animation: pulsate 1s infinite; }
+    .btn-inline:hover span {
+      margin: 0 0 0 8px; }
   .btn-inline:focus {
     outline: none; }
 
@@ -325,3 +332,47 @@ body {
     border: 3px solid #fff; }
     .recommend__photo:not(:last-child) {
       margin: 0 -1.5rem 0 0; }
+
+.review {
+  background-color: #fff;
+  box-shadow: var(--shadow-light);
+  padding: 3rem;
+  margin: 0 0 3.5rem 0;
+  position: relative;
+  overflow: hidden; }
+  .review::before {
+    content: '\201C';
+    position: absolute;
+    top: -2.75rem;
+    left: -1rem;
+    line-height: 1;
+    font-size: 20rem;
+    color: var(--color-grey-light-2);
+    font-family: sans-serif;
+    z-index: 1; }
+  .review__text {
+    margin: 0 0 2rem 0;
+    position: relative;
+    z-index: 10; }
+  .review__user {
+    display: flex;
+    align-items: center; }
+  .review__photo {
+    height: 4.5rem;
+    width: 4.5rem;
+    border-radius: 50%;
+    margin: 0 1.5rem 0 0; }
+  .review__user-box {
+    margin: 0 auto 0 0; }
+  .review__user-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 0 0.4rem 0; }
+  .review__user-date {
+    font-size: 1rem;
+    color: var(--color-grey-dark-3); }
+  .review__rating {
+    color: var(--color-primary);
+    font-size: 2.2rem;
+    font-weight: 300; }
