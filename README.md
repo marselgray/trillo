@@ -8,6 +8,8 @@ This is an advanced CSS and Sass project that uses Flexbox.
 3. Navigation SideBar
 4. Hotel Overview Section
 5. Description Section
+6. Reviews SideBar
+7. Call to Action Section
 
 ### Advanced CSS and Sass Concepts used:
 1. :root selector 
