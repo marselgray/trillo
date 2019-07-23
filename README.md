@@ -10,6 +10,7 @@ This is an advanced CSS and Sass project that uses Flexbox.
 5. Description Section
 6. Reviews SideBar
 7. Call to Action Section
+8. Media Queries
 
 ### Advanced CSS and Sass Concepts used:
 1. :root selector 
