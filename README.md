@@ -58,7 +58,7 @@ flex-shrink: inherit; /* defaults to 1 */
 
 **Mobile**
 
-<!-- ![](project-small.jpg) -->
+![](project-small.jpg)
 
 #### Future Developers:
 `npm install`
