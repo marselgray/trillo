@@ -53,7 +53,7 @@ flex-shrink: inherit; /* defaults to 1 */
 
 **Desktop**
 
-<!-- ![](project-large.jpg) -->
+![](project-large.jpg)
 
 **Mobile**
 
